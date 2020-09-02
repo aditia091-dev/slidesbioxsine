@@ -6,7 +6,7 @@
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 
 	<!-- Page Title -->
-	<title>Bioxsine Test 1</title>
+	<title>Bioxsine</title>
 
 	<!-- Compressed Styles -->
 
