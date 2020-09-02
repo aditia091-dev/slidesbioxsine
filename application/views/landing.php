@@ -6,7 +6,7 @@
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 
 	<!-- Page Title -->
-	<title>Slides - Responsive Free HTML5 Horizontal Slides Template</title>
+	<title><?php echo $title ?></title>
 
 	<!-- Compressed Styles -->
 	<link href="css/slides.min.css" rel="stylesheet" type="text/css">
