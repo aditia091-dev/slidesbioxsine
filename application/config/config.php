@@ -23,12 +23,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-<<<<<<< HEAD
-$config['base_url'] = 'http://localhost/slidesbioxsine/';
-=======
 $config['base_url'] = "http://".$_SERVER['HTTP_HOST'].
 str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME']);
->>>>>>> a8a17adbb2127b5b58d75616b0bade12da65aa23
+
 
 /*
 |--------------------------------------------------------------------------

@@ -9,7 +9,7 @@
 	<title>Bioxsine Test 1</title>
 
 	<!-- Compressed Styles -->
-<<<<<<< HEAD
+
 	<link href="<?php base_url(); ?>asset/css/slides.min.css" rel="stylesheet" type="text/css">
 
 	<!-- jQuery 3.3.1 -->
@@ -18,7 +18,7 @@
 
 	<!-- Compressed Scripts -->
 	<script src="<?php base_url(); ?>asset/js/slides.min.js" type="text/javascript"></script>
-=======
+
 	<link href="<?php base_url(); ?>assets/css/slides.min.css" rel="stylesheet" type="text/css">
 
 	<!-- jQuery 3.3.1 -->
@@ -27,7 +27,7 @@
 
 	<!-- Compressed Scripts -->
 	<script src="<?php base_url(); ?>assets/js/slides.min.js" type="text/javascript"></script>
->>>>>>> a8a17adbb2127b5b58d75616b0bade12da65aa23
+
 
 	<!-- Fonts and Material Icons -->
 	<link rel="stylesheet" as="font" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,600,700|Material+Icons"/>
@@ -174,11 +174,11 @@
               <a class="button blue gradient ae-3 fromCenter cropLeft">Get Started</a><a class="button white ae-4 fromCenter">Learn more</a>
             </li>
             <li class="col-6-12">
-<<<<<<< HEAD
+
               <!-- <img class="ae-4" width="605" src="<?php base_url(); ?>asset/assets/img/iphones-34.png" alt="iPhones Thumbnail" data-action="zoom"/> -->
-=======
+
               <img class="ae-4" width="605" src="<?php base_url(); ?>assets/assets/img/iphones-34.png" alt="iPhones Thumbnail" data-action="zoom"/>
->>>>>>> a8a17adbb2127b5b58d75616b0bade12da65aa23
+
             </li>
           </ul>
         </div>
@@ -186,11 +186,11 @@
       </div>
     </div>
   </div>
-<<<<<<< HEAD
+
   <div class="background" style="background-image:url(<?php base_url(); ?>asset/assets/img/background/bg_1.png)"></div>
-=======
+
   <div class="background" style="background-image:url(<?php base_url(); ?>assets/assets/img/background/img-34.jpg)"></div>
->>>>>>> a8a17adbb2127b5b58d75616b0bade12da65aa23
+
 </section>
 
 <!-- Slide 2 (#60) -->
@@ -214,29 +214,28 @@
               <ul class="slider animated margin-top-4" data-slider-id="60-1">
                 <li class="selected fromCenter">
                   <div class="popupTrigger videoThumbnail shadow rounded" data-popup-id="60-1">
-<<<<<<< HEAD
+
                     <!-- <img class="wide" src="<?php base_url(); ?>asset/assets/img/gallery-60-1.jpg" alt="Video Thumbnail"/> -->
-=======
+
                     <img class="wide" src="<?php base_url(); ?>assets/assets/img/gallery-60-1.jpg" alt="Video Thumbnail"/>
->>>>>>> a8a17adbb2127b5b58d75616b0bade12da65aa23
+
                   </div>
                 </li>
                 <li class="fromCenter">
                   <div class="popupTrigger videoThumbnail shadow rounded" data-popup-id="60-2">
-<<<<<<< HEAD
+
                     <img class="wide" src="<?php base_url(); ?>asset/assets/img/gallery-60-2.jpg" alt="Video Thumbnail"/>
-=======
+
                     <img class="wide" src="<?php base_url(); ?>assets/assets/img/gallery-60-2.jpg" alt="Video Thumbnail"/>
->>>>>>> a8a17adbb2127b5b58d75616b0bade12da65aa23
+
                   </div>
                 </li>
                 <li class="fromCenter">
                   <div class="popupTrigger videoThumbnail shadow rounded" data-popup-id="60-3">
-<<<<<<< HEAD
+
                     <img class="wide" src="<?php base_url(); ?>asset/assets/img/gallery-60-3.jpg" alt="Video Thumbnail"/>
-=======
+
                     <img class="wide" src="<?php base_url(); ?>assets/assets/img/gallery-60-3.jpg" alt="Video Thumbnail"/>
->>>>>>> a8a17adbb2127b5b58d75616b0bade12da65aa23
                   </div>
                 </li>
               </ul>
@@ -247,11 +246,8 @@
       </div>
     </div>
   </div>
-<<<<<<< HEAD
   <div class="background" style="background-image:url(<?php base_url(); ?>asset/assets/img/background/bg_2.png)"></div>
-=======
   <div class="background" style="background-image:url(<?php base_url(); ?>assets/assets/img/background/img-60.jpg)"></div>
->>>>>>> a8a17adbb2127b5b58d75616b0bade12da65aa23
 </section>
 
 
@@ -317,7 +313,7 @@
             <li class="col-5-12 cell-27">
               <div class="fix-4-12">
                 <ul class="slider clickable ae-1 fromAbove" data-slider-id="27-2">
-<<<<<<< HEAD
+
                   <!-- <li class="selected"><img src="<?php base_url(); ?>asset/assets/img/watch-26-2.png" alt="Apple Watch Thumbnail"/></li> -->
                   <!-- <li><img src="<?php base_url(); ?>asset/assets/img/watch-26-1.png" alt="Apple Watch Thumbnail"/></li> -->
                   <!-- <li><img src="<?php base_url(); ?>asset/assets/img/watch-26-2.png" alt="Apple Watch Thumbnail"/></li> -->
@@ -344,11 +340,8 @@
                 <p class="opacity-8">When we feel less secure, with less control over our daily lives, we reach out to brands to connect with a time when things seemed&nbsp;better.</p>
               </div>
               <div class="relative">
-<<<<<<< HEAD
                 <img src="<?php base_url(); ?>asset/assets/img/icon-2.png" class="ae-3 fromCenter app-26" alt="app"/>
-=======
                 <img src="<?php base_url(); ?>assets/assets/img/icon-2.png" class="ae-3 fromCenter app-26" alt="app"/>
->>>>>>> a8a17adbb2127b5b58d75616b0bade12da65aa23
                 <div class="text-26">
                   <h3 class="ae-3 fromRight">Ember for Apple Watch</h3>
                   <div class="ae-5 fromRight">
@@ -363,11 +356,9 @@
       </div>
     </div>
   </div>
-<<<<<<< HEAD
   <div class="background" style="background-image:url(<?php base_url(); ?>asset/assets/img/background/bg_3.png)"></div>
-=======
+
   <div class="background" style="background-image:url(<?php base_url(); ?>assets/assets/img/background/img-27.jpg)"></div>
->>>>>>> a8a17adbb2127b5b58d75616b0bade12da65aa23
 </section>
 
 <!-- Slide 4 (#26) -->
@@ -384,11 +375,11 @@
                 <p class="opacity-8">An electrician isn't an opinion former, but a graphic designer is. My argument is that all graphic designers hold high levels of responsibility in&nbsp;society.</p>
               </div>
               <div class="relative">
-<<<<<<< HEAD
+
                 <img src="<?php base_url(); ?>asset/assets/img/icon-1.png" class="ae-3 fromCenter app-26" alt="app"/>
-=======
+
                 <img src="<?php base_url(); ?>assets/assets/img/icon-1.png" class="ae-3 fromCenter app-26" alt="app"/>
->>>>>>> a8a17adbb2127b5b58d75616b0bade12da65aa23
+
                 <div class="text-26">
                   <h3 class="ae-3 fromRight">Ember for Apple Watch</h3>
                   <div class="ae-5 fromRight">
@@ -400,17 +391,16 @@
             <li class="col-5-12">
               <div class="fix-4-12 center">
                 <ul class="slider clickable ae-1 fromAbove" data-slider-id="26-3">
-<<<<<<< HEAD
+
                   <li class="selected"><img src="<?php base_url(); ?>asset/assets/img/watch-26-1.png" alt="Apple Watch Thumbnail"/></li>
                   <li><img src="<?php base_url(); ?>asset/assets/img/watch-26-2.png" alt="Apple Watch Thumbnail"/></li>
                   <li><img src="<?php base_url(); ?>asset/assets/img/watch-26-1.png" alt="Apple Watch Thumbnail"/></li>
-                  <li><img src="<?php base_url(); ?>asset/assets/img/watch-26-2.png" alt="Apple Watch Thumbnail"/></li>
-=======
+                  <li><img src="<?php base_url(); ?>asset/assets/img/watch-26-2.png" alt="Apple Watch 
                   <li class="selected"><img src="<?php base_url(); ?>assets/assets/img/watch-26-1.png" alt="Apple Watch Thumbnail"/></li>
                   <li><img src="<?php base_url(); ?>assets/assets/img/watch-26-2.png" alt="Apple Watch Thumbnail"/></li>
                   <li><img src="<?php base_url(); ?>assets/assets/img/watch-26-1.png" alt="Apple Watch Thumbnail"/></li>
                   <li><img src="<?php base_url(); ?>assets/assets/img/watch-26-2.png" alt="Apple Watch Thumbnail"/></li>
->>>>>>> a8a17adbb2127b5b58d75616b0bade12da65aa23
+
                 </ul>
                 <ul class="controller dots ae-3 fromCenter margin-top-3" data-slider-id="26-3">
                   <li class="dot selected"></li>
@@ -426,11 +416,11 @@
       </div>
     </div>
   </div>
-<<<<<<< HEAD
+
   <div class="background" style="background-image:url(<?php base_url(); ?>asset/assets/img/background/img-26.jpg)"></div>
-=======
+
   <div class="background" style="background-image:url(<?php base_url(); ?>assets/assets/img/background/img-26.jpg)"></div>
->>>>>>> a8a17adbb2127b5b58d75616b0bade12da65aa23
+
 </section>
 
 <!-- Slide 5 (#91) -->
@@ -468,11 +458,11 @@
       </div>
     </div>
   </div>
-<<<<<<< HEAD
+
   <div class="background" style="background-image:url(<?php base_url(); ?>asset/assets/img/background/img-91.jpg)"></div>
-=======
+
   <div class="background" style="background-image:url(<?php base_url(); ?>assets/assets/img/background/img-91.jpg)"></div>
->>>>>>> a8a17adbb2127b5b58d75616b0bade12da65aa23
+
 </section>
 
 <!-- Slide 6 (#83) -->
@@ -540,11 +530,10 @@
       </div>
     </div>
   </div>
-<<<<<<< HEAD
+
   <div class="background" style="background-image:url(<?php base_url(); ?>asset/assets/img/background/img-83.jpg)"></div>
-=======
+
   <div class="background" style="background-image:url(<?php base_url(); ?>assets/assets/img/background/img-83.jpg)"></div>
->>>>>>> a8a17adbb2127b5b58d75616b0bade12da65aa23
 </section>
 
 <!-- Slide 7 (#95) -->
@@ -561,22 +550,15 @@
             <input type="email" class="ae-3" name="email" placeholder="E-mail address"/>
             <button type="submit" class="button blue gradient ae-4" name="submit">Try it free</button>
           </form>
-
-<<<<<<< HEAD
           <a href="#" class="button hollow ae-5"><img src="<?php base_url(); ?>asset/assets/img/appstore.jpg" height="63"/></a><a href="#" class="button hollow ae-6"><img src="<?php base_url(); ?>asset/assets/img/googleplay.jpg" height="63"/></a>
-=======
           <a href="#" class="button hollow ae-5"><img src="<?php base_url(); ?>assets/assets/img/appstore.jpg" height="63"/></a><a href="#" class="button hollow ae-6"><img src="<?php base_url(); ?>assets/assets/img/googleplay.jpg" height="63"/></a>
->>>>>>> a8a17adbb2127b5b58d75616b0bade12da65aa23
         </div>
                 
       </div>
     </div>
   </div>
-<<<<<<< HEAD
   <div class="background" style="background-image:url(<?php base_url(); ?>asset/assets/img/background/img-95.jpg)"></div>
-=======
   <div class="background" style="background-image:url(<?php base_url(); ?>assets/assets/img/background/img-95.jpg)"></div>
->>>>>>> a8a17adbb2127b5b58d75616b0bade12da65aa23
 </section>
 
 <!-- Panel Bottom #01 -->
