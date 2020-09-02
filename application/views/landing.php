@@ -195,7 +195,7 @@
               <ul class="slider animated margin-top-4" data-slider-id="60-1">
                 <li class="selected fromCenter">
                   <div class="popupTrigger videoThumbnail shadow rounded" data-popup-id="60-1">
-                    <img class="wide" src="<?php base_url(); ?>asset/assets/img/gallery-60-1.jpg" alt="Video Thumbnail"/>
+                    <!-- <img class="wide" src="<?php base_url(); ?>asset/assets/img/gallery-60-1.jpg" alt="Video Thumbnail"/> -->
                   </div>
                 </li>
                 <li class="fromCenter">
@@ -216,7 +216,7 @@
       </div>
     </div>
   </div>
-  <div class="background" style="background-image:url(<?php base_url(); ?>asset/assets/img/background/img-60.jpg)"></div>
+  <div class="background" style="background-image:url(<?php base_url(); ?>asset/assets/img/background/bg_2.png)"></div>
 </section>
 
 
@@ -282,17 +282,17 @@
             <li class="col-5-12 cell-27">
               <div class="fix-4-12">
                 <ul class="slider clickable ae-1 fromAbove" data-slider-id="27-2">
-                  <li class="selected"><img src="<?php base_url(); ?>asset/assets/img/watch-26-2.png" alt="Apple Watch Thumbnail"/></li>
-                  <li><img src="<?php base_url(); ?>asset/assets/img/watch-26-1.png" alt="Apple Watch Thumbnail"/></li>
-                  <li><img src="<?php base_url(); ?>asset/assets/img/watch-26-2.png" alt="Apple Watch Thumbnail"/></li>
-                  <li><img src="<?php base_url(); ?>asset/assets/img/watch-26-1.png" alt="Apple Watch Thumbnail"/></li>
-                </ul>
+                  <!-- <li class="selected"><img src="<?php base_url(); ?>asset/assets/img/watch-26-2.png" alt="Apple Watch Thumbnail"/></li> -->
+                  <!-- <li><img src="<?php base_url(); ?>asset/assets/img/watch-26-1.png" alt="Apple Watch Thumbnail"/></li> -->
+                  <!-- <li><img src="<?php base_url(); ?>asset/assets/img/watch-26-2.png" alt="Apple Watch Thumbnail"/></li> -->
+                  <!-- <li><img src="<?php base_url(); ?>asset/assets/img/watch-26-1.png" alt="Apple Watch Thumbnail"/></li> -->
+                <!-- </ul>
                 <ul class="controller dots ae-2 fromCenter margin-top-3" data-slider-id="27-2">
                   <li class="dot selected"></li>
                   <li class="dot"></li>
                   <li class="dot"></li>
                   <li class="dot"></li>
-                </ul>
+                </ul> -->
               </div>
             </li>
             <li class="col-7-12 left">
@@ -316,7 +316,7 @@
       </div>
     </div>
   </div>
-  <div class="background" style="background-image:url(<?php base_url(); ?>asset/assets/img/background/img-27.jpg)"></div>
+  <div class="background" style="background-image:url(<?php base_url(); ?>asset/assets/img/background/bg_3.png)"></div>
 </section>
 
 <!-- Slide 4 (#26) -->
