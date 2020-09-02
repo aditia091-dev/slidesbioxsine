@@ -5,7 +5,7 @@ class Bioxsine extends CI_Controller {
 
 	public function index()
 	{
-		$data=array('title'=>'BioxsineIndonesia','isi' =>'nav_bar/nav_bar');
+		//$data=array('title'=>'BioxsineIndonesia','isi' =>'nav_bar/nav_bar');
 		$this->load->view('landing');
 	}
 }
