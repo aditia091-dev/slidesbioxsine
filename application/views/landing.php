@@ -1,44 +1,33 @@
 <!doctype html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, viewport-fit=cover">
-	<meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
 
-	<!-- Page Title -->
-	<title>Bioxsine - mazta farma</title>
+  <!-- Page Title -->
+  <title>Slides - Responsive Free HTML5 Horizontal Slides Template</title>
 
-	<!-- Compressed Styles -->
+  <!-- Compressed Styles -->
+  <link href="<?php base_url(); ?>assets/css/slides.min.css" rel="stylesheet" type="text/css">
 
-	<link href="<?php base_url(); ?>asset/css/slides.min.css" rel="stylesheet" type="text/css">
-
-	<!-- jQuery 3.3.1 -->
+  <!-- jQuery 3.3.1 -->
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
-	<script src="<?php base_url(); ?>asset/js/jquery.min.js"></script>
+  <script src="<?php base_url(); ?>assets/js/jquery.min.js"></script>
 
-	<!-- Compressed Scripts -->
-	<script src="<?php base_url(); ?>asset/js/slides.min.js" type="text/javascript"></script>
+  <!-- Compressed Scripts -->
+  <script src="<?php base_url(); ?>assets/js/slides.min.js" type="text/javascript"></script>
 
-	<link href="<?php base_url(); ?>assets/css/slides.min.css" rel="stylesheet" type="text/css">
-
-	<!-- jQuery 3.3.1 -->
-    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
-	<script src="<?php base_url(); ?>assets/js/jquery.min.js"></script>
-
-	<!-- Compressed Scripts -->
-	<script src="<?php base_url(); ?>assets/js/slides.min.js" type="text/javascript"></script>
-
-
-	<!-- Fonts and Material Icons -->
-	<link rel="stylesheet" as="font" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,600,700|Material+Icons"/>
+  <!-- Fonts and Material Icons -->
+  <link rel="stylesheet" as="font" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,600,700|Material+Icons"/>
  
 </head>
 <body class="slides horizontal simplifiedMobile animated">
-		
+    
 <!-- SVG Library -->
 <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
   
-  <symbol id="logo" viewBox="0 0 106 31"><title>Bioxsine</title><path d="M17.413 14.04c-.56-5.84-5.6-7-8.52-7-4.6 0-8.6 2.92-8.6 7.52 0 3 2.4 4.88 5.28 5.8 4.24 1.64 5.88 1.84 5.88 3.36 0 1.08-1.2 1.72-2.32 1.72-.28 0-2.24 0-2.52-2.04h-6.6c.6 5.84 5.68 7.36 9.04 7.36 4.92 0 9.04-2.88 9.04-7.76 0-4.8-4-5.92-7.76-6.96-1.76-.52-3.4-1.2-3.4-2.2 0-.6.48-1.48 1.88-1.48 1.96 0 2.04 1.2 2.08 1.68h6.52zm2.222 15.96h6.64v-29.6h-6.64v29.6zm9.662-24.56h6.64v-5.04h-6.64v5.04zm0 24.56h6.64v-22.2h-6.64v22.2zm32.782-29.6h-6.64v9.28c-.72-.72-2.6-2.64-6.52-2.64-5.64 0-11 4.28-11 11.8 0 6.68 4.4 11.88 11.12 11.88 4.48 0 6.08-2.2 6.72-3.12v2.4h6.32v-29.6zm-17.52 18.4c0-2.56 1.8-5.56 5.64-5.56 1.56 0 2.96.56 3.96 1.56 1 .96 1.64 2.32 1.64 3.92.08 1.64-.52 3.08-1.56 4.12s-2.52 1.68-4.12 1.68c-3.12 0-5.56-2.28-5.56-5.68v-.04zm42.502 2.4c.52-4.08-.32-7.64-3.12-10.64-2.08-2.2-5-3.52-8.4-3.52-6.76 0-11.64 5.72-11.64 11.92 0 6.6 5.4 11.76 11.76 11.76 2.28 0 4.48-.68 6.32-2 1.88-1.28 3.44-3.2 4.52-5.68h-6.8c-.8 1.16-1.92 2.08-4.04 2.08-2.6 0-4.84-1.56-5.12-3.92h16.52zm-16.44-5.04c.16-1.04 1.52-3.52 4.96-3.52s4.8 2.48 4.96 3.52h-9.92zm34.502-2.12c-.56-5.84-5.6-7-8.52-7-4.6 0-8.6 2.92-8.6 7.52 0 3 2.4 4.88 5.28 5.8 4.24 1.64 5.88 1.84 5.88 3.36 0 1.08-1.2 1.72-2.32 1.72-.28 0-2.24 0-2.52-2.04h-6.6c.6 5.84 5.68 7.36 9.04 7.36 4.92 0 9.04-2.88 9.04-7.76 0-4.8-4-5.92-7.76-6.96-1.76-.52-3.4-1.2-3.4-2.2 0-.6.48-1.48 1.88-1.48 1.96 0 2.04 1.2 2.08 1.68h6.52z"/></symbol>
+  <symbol id="logo" viewBox="0 0 106 31"><title>Slides Framework</title><path d="M17.413 14.04c-.56-5.84-5.6-7-8.52-7-4.6 0-8.6 2.92-8.6 7.52 0 3 2.4 4.88 5.28 5.8 4.24 1.64 5.88 1.84 5.88 3.36 0 1.08-1.2 1.72-2.32 1.72-.28 0-2.24 0-2.52-2.04h-6.6c.6 5.84 5.68 7.36 9.04 7.36 4.92 0 9.04-2.88 9.04-7.76 0-4.8-4-5.92-7.76-6.96-1.76-.52-3.4-1.2-3.4-2.2 0-.6.48-1.48 1.88-1.48 1.96 0 2.04 1.2 2.08 1.68h6.52zm2.222 15.96h6.64v-29.6h-6.64v29.6zm9.662-24.56h6.64v-5.04h-6.64v5.04zm0 24.56h6.64v-22.2h-6.64v22.2zm32.782-29.6h-6.64v9.28c-.72-.72-2.6-2.64-6.52-2.64-5.64 0-11 4.28-11 11.8 0 6.68 4.4 11.88 11.12 11.88 4.48 0 6.08-2.2 6.72-3.12v2.4h6.32v-29.6zm-17.52 18.4c0-2.56 1.8-5.56 5.64-5.56 1.56 0 2.96.56 3.96 1.56 1 .96 1.64 2.32 1.64 3.92.08 1.64-.52 3.08-1.56 4.12s-2.52 1.68-4.12 1.68c-3.12 0-5.56-2.28-5.56-5.68v-.04zm42.502 2.4c.52-4.08-.32-7.64-3.12-10.64-2.08-2.2-5-3.52-8.4-3.52-6.76 0-11.64 5.72-11.64 11.92 0 6.6 5.4 11.76 11.76 11.76 2.28 0 4.48-.68 6.32-2 1.88-1.28 3.44-3.2 4.52-5.68h-6.8c-.8 1.16-1.92 2.08-4.04 2.08-2.6 0-4.84-1.56-5.12-3.92h16.52zm-16.44-5.04c.16-1.04 1.52-3.52 4.96-3.52s4.8 2.48 4.96 3.52h-9.92zm34.502-2.12c-.56-5.84-5.6-7-8.52-7-4.6 0-8.6 2.92-8.6 7.52 0 3 2.4 4.88 5.28 5.8 4.24 1.64 5.88 1.84 5.88 3.36 0 1.08-1.2 1.72-2.32 1.72-.28 0-2.24 0-2.52-2.04h-6.6c.6 5.84 5.68 7.36 9.04 7.36 4.92 0 9.04-2.88 9.04-7.76 0-4.8-4-5.92-7.76-6.96-1.76-.52-3.4-1.2-3.4-2.2 0-.6.48-1.48 1.88-1.48 1.96 0 2.04 1.2 2.08 1.68h6.52z"/></symbol>
 
   <symbol id="logo-icon" viewBox="0 0 50 41"><title>Slides Framework</title><path d="M4,12h42c2.2,0,4,1.8,4,4v21c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V16C0,13.8,1.8,12,4,12z"/><path opacity="0.6" d="M45.5,9h-41C3.7,9,3,8.3,3,7.5v0C3,6.7,3.7,6,4.5,6h41C46.3,6,47,6.7,47,7.5v0C47,8.3,46.3,9,45.5,9z"/><path opacity="0.4" d="M7.5,0h35C43.3,0,44,0.7,44,1.5v0C44,2.3,43.3,3,42.5,3h-35C6.7,3,6,2.3,6,1.5v0C6,0.7,6.7,0,7.5,0z"/></symbol>
   
@@ -112,8 +101,12 @@
 <!-- Panel Top #05 -->
 <nav class="panel top">
   <div class="sections desktop">
-    <div class="left"><a href="#" title="Slides Framework"><svg style="width:82px;height:24px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a></div>
-    <div class="center">
+    <div class="left"><a href="#" title="Slides Framework">
+    <a href="#slides" class="brand-logo">
+                        <img src="<?php base_url(); ?>assets/assets/img/logo.png" alt="karbar logo">
+                    </a>
+      <!--<svg style="width:82px;height:24px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg>--></a></div>
+    <!--<div class="center">
       <ul class="menu">
         <li><a href="#">Home</a></li>
         <li><a href="#videos">Videos</a></li>
@@ -122,7 +115,7 @@
         <li><a href="#pricing">Pricing</a></li>
         <li><a href="#download">Download</a></li>
       </ul>
-    </div>
+    </div>-->
     <div class="right"><a class="button blue gradient" href="#">Profile</a><a class="button green gradient" href="https://freehtml5.co/slides" target="_blank">Get App</a></div>
   </div>
   <div class="sections compact hidden">
@@ -165,7 +158,7 @@
   <div class="content">
     <div class="container">
       <div class="wrap">
-      
+      <!--
         <div class="fix-12-12">
           <ul class="flex fixedSpaces verticalCenter reverse">
             <li class="col-6-12 left middle">
@@ -174,23 +167,15 @@
               <a class="button blue gradient ae-3 fromCenter cropLeft">Get Started</a><a class="button white ae-4 fromCenter">Learn more</a>
             </li>
             <li class="col-6-12">
-
-              <!-- <img class="ae-4" width="605" src="<?php base_url(); ?>asset/assets/img/iphones-34.png" alt="iPhones Thumbnail" data-action="zoom"/> -->
-
               <img class="ae-4" width="605" src="<?php base_url(); ?>assets/assets/img/iphones-34.png" alt="iPhones Thumbnail" data-action="zoom"/>
-
             </li>
           </ul>
         </div>
-        
+        -->
       </div>
     </div>
   </div>
-
-  <div class="background" style="background-image:url(<?php base_url(); ?>asset/assets/img/background/bg_1.png)"></div>
-
-  <div class="background" style="background-image:url(<?php base_url(); ?>assets/assets/img/background/img-34.jpg)"></div>
-
+  <div class="background" style="background-image:url(<?php base_url(); ?>assets/assets/img/background/bg_1.png)"></div>
 </section>
 
 <!-- Slide 2 (#60) -->
@@ -214,27 +199,16 @@
               <ul class="slider animated margin-top-4" data-slider-id="60-1">
                 <li class="selected fromCenter">
                   <div class="popupTrigger videoThumbnail shadow rounded" data-popup-id="60-1">
-
-                    <!-- <img class="wide" src="<?php base_url(); ?>asset/assets/img/gallery-60-1.jpg" alt="Video Thumbnail"/> -->
-
                     <img class="wide" src="<?php base_url(); ?>assets/assets/img/gallery-60-1.jpg" alt="Video Thumbnail"/>
-
                   </div>
                 </li>
                 <li class="fromCenter">
                   <div class="popupTrigger videoThumbnail shadow rounded" data-popup-id="60-2">
-
-                    <img class="wide" src="<?php base_url(); ?>asset/assets/img/gallery-60-2.jpg" alt="Video Thumbnail"/>
-
                     <img class="wide" src="<?php base_url(); ?>assets/assets/img/gallery-60-2.jpg" alt="Video Thumbnail"/>
-
                   </div>
                 </li>
                 <li class="fromCenter">
                   <div class="popupTrigger videoThumbnail shadow rounded" data-popup-id="60-3">
-
-                    <img class="wide" src="<?php base_url(); ?>asset/assets/img/gallery-60-3.jpg" alt="Video Thumbnail"/>
-
                     <img class="wide" src="<?php base_url(); ?>assets/assets/img/gallery-60-3.jpg" alt="Video Thumbnail"/>
                   </div>
                 </li>
@@ -246,7 +220,6 @@
       </div>
     </div>
   </div>
-  <div class="background" style="background-image:url(<?php base_url(); ?>asset/assets/img/background/bg_2.png)"></div>
   <div class="background" style="background-image:url(<?php base_url(); ?>assets/assets/img/background/img-60.jpg)"></div>
 </section>
 
@@ -313,25 +286,17 @@
             <li class="col-5-12 cell-27">
               <div class="fix-4-12">
                 <ul class="slider clickable ae-1 fromAbove" data-slider-id="27-2">
-
-                  <!-- <li class="selected"><img src="<?php base_url(); ?>asset/assets/img/watch-26-2.png" alt="Apple Watch Thumbnail"/></li> -->
-                  <!-- <li><img src="<?php base_url(); ?>asset/assets/img/watch-26-1.png" alt="Apple Watch Thumbnail"/></li> -->
-                  <!-- <li><img src="<?php base_url(); ?>asset/assets/img/watch-26-2.png" alt="Apple Watch Thumbnail"/></li> -->
-                  <!-- <li><img src="<?php base_url(); ?>asset/assets/img/watch-26-1.png" alt="Apple Watch Thumbnail"/></li> -->
-                <!-- </ul>
-=======
                   <li class="selected"><img src="<?php base_url(); ?>assets/assets/img/watch-26-2.png" alt="Apple Watch Thumbnail"/></li>
                   <li><img src="<?php base_url(); ?>assets/assets/img/watch-26-1.png" alt="Apple Watch Thumbnail"/></li>
                   <li><img src="<?php base_url(); ?>assets/assets/img/watch-26-2.png" alt="Apple Watch Thumbnail"/></li>
                   <li><img src="<?php base_url(); ?>assets/assets/img/watch-26-1.png" alt="Apple Watch Thumbnail"/></li>
                 </ul>
->>>>>>> a8a17adbb2127b5b58d75616b0bade12da65aa23
                 <ul class="controller dots ae-2 fromCenter margin-top-3" data-slider-id="27-2">
                   <li class="dot selected"></li>
                   <li class="dot"></li>
                   <li class="dot"></li>
                   <li class="dot"></li>
-                </ul> -->
+                </ul>
               </div>
             </li>
             <li class="col-7-12 left">
@@ -340,7 +305,6 @@
                 <p class="opacity-8">When we feel less secure, with less control over our daily lives, we reach out to brands to connect with a time when things seemed&nbsp;better.</p>
               </div>
               <div class="relative">
-                <img src="<?php base_url(); ?>asset/assets/img/icon-2.png" class="ae-3 fromCenter app-26" alt="app"/>
                 <img src="<?php base_url(); ?>assets/assets/img/icon-2.png" class="ae-3 fromCenter app-26" alt="app"/>
                 <div class="text-26">
                   <h3 class="ae-3 fromRight">Ember for Apple Watch</h3>
@@ -356,8 +320,6 @@
       </div>
     </div>
   </div>
-  <div class="background" style="background-image:url(<?php base_url(); ?>asset/assets/img/background/bg_3.png)"></div>
-
   <div class="background" style="background-image:url(<?php base_url(); ?>assets/assets/img/background/img-27.jpg)"></div>
 </section>
 
@@ -375,11 +337,7 @@
                 <p class="opacity-8">An electrician isn't an opinion former, but a graphic designer is. My argument is that all graphic designers hold high levels of responsibility in&nbsp;society.</p>
               </div>
               <div class="relative">
-
-                <img src="<?php base_url(); ?>asset/assets/img/icon-1.png" class="ae-3 fromCenter app-26" alt="app"/>
-
                 <img src="<?php base_url(); ?>assets/assets/img/icon-1.png" class="ae-3 fromCenter app-26" alt="app"/>
-
                 <div class="text-26">
                   <h3 class="ae-3 fromRight">Ember for Apple Watch</h3>
                   <div class="ae-5 fromRight">
@@ -391,16 +349,10 @@
             <li class="col-5-12">
               <div class="fix-4-12 center">
                 <ul class="slider clickable ae-1 fromAbove" data-slider-id="26-3">
-
-                  <li class="selected"><img src="<?php base_url(); ?>asset/assets/img/watch-26-1.png" alt="Apple Watch Thumbnail"/></li>
-                  <li><img src="<?php base_url(); ?>asset/assets/img/watch-26-2.png" alt="Apple Watch Thumbnail"/></li>
-                  <li><img src="<?php base_url(); ?>asset/assets/img/watch-26-1.png" alt="Apple Watch Thumbnail"/></li>
-                  <li><img src="<?php base_url(); ?>asset/assets/img/watch-26-2.png" alt="Apple Watch 
                   <li class="selected"><img src="<?php base_url(); ?>assets/assets/img/watch-26-1.png" alt="Apple Watch Thumbnail"/></li>
                   <li><img src="<?php base_url(); ?>assets/assets/img/watch-26-2.png" alt="Apple Watch Thumbnail"/></li>
                   <li><img src="<?php base_url(); ?>assets/assets/img/watch-26-1.png" alt="Apple Watch Thumbnail"/></li>
                   <li><img src="<?php base_url(); ?>assets/assets/img/watch-26-2.png" alt="Apple Watch Thumbnail"/></li>
-
                 </ul>
                 <ul class="controller dots ae-3 fromCenter margin-top-3" data-slider-id="26-3">
                   <li class="dot selected"></li>
@@ -416,11 +368,7 @@
       </div>
     </div>
   </div>
-
-  <div class="background" style="background-image:url(<?php base_url(); ?>asset/assets/img/background/img-26.jpg)"></div>
-
   <div class="background" style="background-image:url(<?php base_url(); ?>assets/assets/img/background/img-26.jpg)"></div>
-
 </section>
 
 <!-- Slide 5 (#91) -->
@@ -458,11 +406,7 @@
       </div>
     </div>
   </div>
-
-  <div class="background" style="background-image:url(<?php base_url(); ?>asset/assets/img/background/img-91.jpg)"></div>
-
   <div class="background" style="background-image:url(<?php base_url(); ?>assets/assets/img/background/img-91.jpg)"></div>
-
 </section>
 
 <!-- Slide 6 (#83) -->
@@ -530,9 +474,6 @@
       </div>
     </div>
   </div>
-
-  <div class="background" style="background-image:url(<?php base_url(); ?>asset/assets/img/background/img-83.jpg)"></div>
-
   <div class="background" style="background-image:url(<?php base_url(); ?>assets/assets/img/background/img-83.jpg)"></div>
 </section>
 
@@ -550,14 +491,13 @@
             <input type="email" class="ae-3" name="email" placeholder="E-mail address"/>
             <button type="submit" class="button blue gradient ae-4" name="submit">Try it free</button>
           </form>
-          <a href="#" class="button hollow ae-5"><img src="<?php base_url(); ?>asset/assets/img/appstore.jpg" height="63"/></a><a href="#" class="button hollow ae-6"><img src="<?php base_url(); ?>asset/assets/img/googleplay.jpg" height="63"/></a>
+
           <a href="#" class="button hollow ae-5"><img src="<?php base_url(); ?>assets/assets/img/appstore.jpg" height="63"/></a><a href="#" class="button hollow ae-6"><img src="<?php base_url(); ?>assets/assets/img/googleplay.jpg" height="63"/></a>
         </div>
                 
       </div>
     </div>
   </div>
-  <div class="background" style="background-image:url(<?php base_url(); ?>asset/assets/img/background/img-95.jpg)"></div>
   <div class="background" style="background-image:url(<?php base_url(); ?>assets/assets/img/background/img-95.jpg)"></div>
 </section>
 
