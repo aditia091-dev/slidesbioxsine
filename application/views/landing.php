@@ -6,7 +6,7 @@
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 
 	<!-- Page Title -->
-	<title>Bioxsine</title>
+	<title>Bioxsine - mazta farma</title>
 
 	<!-- Compressed Styles -->
 
