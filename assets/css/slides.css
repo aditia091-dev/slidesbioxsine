@@ -1268,7 +1268,7 @@ p.uppercase, .p.uppercase,
   width: 100%;
   height: 100%;
   background: #202020;
-  color: #fff;
+  color: #874025;
   z-index: 10;
   overflow: hidden;
 }
@@ -1316,7 +1316,7 @@ p.uppercase, .p.uppercase,
 
 /* Background Fade */
 .fade .content {
-  background: rgba(0, 0, 0, 0.6);
+  background-color: transparent;
 }
 
 /*default*/
@@ -1329,7 +1329,8 @@ p.uppercase, .p.uppercase,
 }
 
 .fade-3 .content {
-  background: rgba(0, 0, 0, 0.3);
+  /*background: rgba(0, 0, 0, 0.3);*/
+   background-color: transparent;
 }
 
 .fade-4 .content {
@@ -1359,6 +1360,7 @@ p.uppercase, .p.uppercase,
 
 .whiteSlide[class*="fade"] .content {
   background: rgba(255, 255, 255, 0.85);
+  
 }
 
 .container {

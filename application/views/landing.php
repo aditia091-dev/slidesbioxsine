@@ -4,9 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, viewport-fit=cover">
   <meta name="apple-mobile-web-app-capable" content="yes" />
-
+  <link rel="shortcut icon" href="<?php base_url(); ?>assets/assets/img/fav.ico">
   <!-- Page Title -->
-  <title>Slides - Responsive Free HTML5 Horizontal Slides Template</title>
+  <title><?php echo $title ?></title>
+
 
   <!-- Compressed Styles -->
   <link href="<?php base_url(); ?>assets/css/slides.min.css" rel="stylesheet" type="text/css">
@@ -22,7 +23,7 @@
   <link rel="stylesheet" as="font" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,600,700|Material+Icons"/>
  
 </head>
-<body class="slides horizontal simplifiedMobile animated">
+<!--<body class="slides horizontal simplifiedMobile animated">-->
     
 <!-- SVG Library -->
 <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
@@ -116,7 +117,7 @@
         <li><a href="#download">Download</a></li>
       </ul>
     </div>-->
-    <div class="right"><a class="button blue gradient" href="#">Profile</a><a class="button green gradient" href="https://freehtml5.co/slides" target="_blank">Get App</a></div>
+    <!--<div class="right"><a class="button blue gradient" href="#">Profile</a><a class="button green gradient" href="https://freehtml5.co/slides" target="_blank">Get App</a></div>-->
   </div>
   <div class="sections compact hidden">
     <div class="left"><a href="#" title="Slides Framework"><svg style="width:82px;height:24px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a></div>
@@ -154,7 +155,7 @@
 </nav>
 
 <!-- Slide 1 (#34) -->
-<section class="slide fade-6 kenBurns">
+<section class="slide fade-6 ">
   <div class="content">
     <div class="container">
       <div class="wrap">
@@ -179,40 +180,44 @@
 </section>
 
 <!-- Slide 2 (#60) -->
-<section class="slide fade-6 kenBurns" data-name="videos">
+<section class="slide fade-6 " data-name="features">
   <div class="content">
     <div class="container">
       <div class="wrap">
-          
+        
         <div class="fix-12-12">
-          <ul class="grid">
-            <li class="col-6-12 left">
-              <h1 class="ae-2 fromLeft">Krabi Island</h1>
-              <p class="ae-3 fromLeft"><span class="opacity-8">An electrician isn’t an opinion former, but a graphic designer is. My argument is that all graphic designers hold high levels of responsibility in society.</span></p>
-              <ul class="tabs controller uppercase bold ae-4 fromCenter" data-slider-id="60-1">
-                <li class="selected">Krabi Island</li>
-                <li>Community</li>
-                <li>Surfing</li>
-              </ul>
+          <ul class="flex verticalCenter">
+            <li class="col-5-12 cell-27">
+              <div class="fix-4-12">
+                <!--<ul class="slider clickable ae-1 fromAbove" data-slider-id="27-2">
+                  <li class="selected"><img src="<?php base_url(); ?>assets/assets/img/watch-26-2.png" alt="Apple Watch Thumbnail"/></li>
+                  <li><img src="<?php base_url(); ?>assets/assets/img/watch-26-1.png" alt="Apple Watch Thumbnail"/></li>
+                  <li><img src="<?php base_url(); ?>assets/assets/img/watch-26-2.png" alt="Apple Watch Thumbnail"/></li>
+                  <li><img src="<?php base_url(); ?>assets/assets/img/watch-26-1.png" alt="Apple Watch Thumbnail"/></li>
+                </ul>-->
+                <ul class="controller dots ae-2 fromCenter margin-top-3" data-slider-id="27-2">
+                  <!--<li class="dot selected"></li>
+                  <li class="dot"></li>
+                  <li class="dot"></li>
+                  <li class="dot"></li>-->
+                </ul>
+              </div>
             </li>
-            <li class="col-6-12 left ae-5 fromCenter">
-              <ul class="slider animated margin-top-4" data-slider-id="60-1">
-                <li class="selected fromCenter">
-                  <div class="popupTrigger videoThumbnail shadow rounded" data-popup-id="60-1">
-                    <img class="wide" src="<?php base_url(); ?>assets/assets/img/gallery-60-1.jpg" alt="Video Thumbnail"/>
+            <li class="col-7-12 left">
+              <!--<h1 class="ae-2 fromRight">Be creative</h1>-->
+              <div class="ae-3 fromRight">
+                <p class="opacity-8">Tetapi seringkali aktivitas yang padat, membuat kita
+                mengabaikan kesehatan kulit</p><!--&nbsp;better.</p>-->
+              </div>
+              <div class="relative">
+                <!--<img src="<?php base_url(); ?>assets/assets/img/icon-2.png" class="ae-3 fromCenter app-26" alt="app"/>-->
+                <div class="text-26">
+                  <!--<h3 class="ae-3 fromRight">Ember for Apple Watch</h3>
+                  <div class="ae-5 fromRight">
+                    <p class="tiny opacity-6">People don&rsquo;t use a product<br>because of the great&nbsp;design.</p>-->
                   </div>
-                </li>
-                <li class="fromCenter">
-                  <div class="popupTrigger videoThumbnail shadow rounded" data-popup-id="60-2">
-                    <img class="wide" src="<?php base_url(); ?>assets/assets/img/gallery-60-2.jpg" alt="Video Thumbnail"/>
-                  </div>
-                </li>
-                <li class="fromCenter">
-                  <div class="popupTrigger videoThumbnail shadow rounded" data-popup-id="60-3">
-                    <img class="wide" src="<?php base_url(); ?>assets/assets/img/gallery-60-3.jpg" alt="Video Thumbnail"/>
-                  </div>
-                </li>
-              </ul>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
@@ -220,62 +225,10 @@
       </div>
     </div>
   </div>
-  <div class="background" style="background-image:url(<?php base_url(); ?>assets/assets/img/background/img-60.jpg)"></div>
+  <div class="background" style="background-image:url(<?php base_url(); ?>assets/assets/img/background/bg_03.png)"></div>
 </section>
 
-
-<!-- Popup Video -->
-<div class="popup autoplay" data-popup-id="60-1">
-  <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-        <div class="fix-10-12">
-          <div class="embedVideo popupContent">
-            <iframe src="https://player.vimeo.com/video/101231747?color=ff0179&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- Popup Video -->
-<div class="popup autoplay" data-popup-id="60-2">
-  <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-        <div class="fix-10-12">
-          <div class="embedVideo popupContent">
-            <iframe src="https://player.vimeo.com/video/101231747?color=ff0179&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- Popup Video -->
-<div class="popup autoplay" data-popup-id="60-3">
-  <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-        <div class="fix-10-12">
-          <div class="embedVideo popupContent">
-            <iframe src="https://player.vimeo.com/video/101231747?color=ff0179&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- Slide 3 (#27) -->
+<!-- Slide 3 (#27) 
 <section class="slide fade-6 kenBurns" data-name="features">
   <div class="content">
     <div class="container">
@@ -286,25 +239,21 @@
             <li class="col-5-12 cell-27">
               <div class="fix-4-12">
                 <ul class="slider clickable ae-1 fromAbove" data-slider-id="27-2">
-                  <li class="selected"><img src="<?php base_url(); ?>assets/assets/img/watch-26-2.png" alt="Apple Watch Thumbnail"/></li>
-                  <li><img src="<?php base_url(); ?>assets/assets/img/watch-26-1.png" alt="Apple Watch Thumbnail"/></li>
-                  <li><img src="<?php base_url(); ?>assets/assets/img/watch-26-2.png" alt="Apple Watch Thumbnail"/></li>
-                  <li><img src="<?php base_url(); ?>assets/assets/img/watch-26-1.png" alt="Apple Watch Thumbnail"/></li>
+                  <li class="selected">
+                    <img src="<?php base_url(); ?>assets/assets/img/background/prod.png" alt="Apple Watch Thumbnail"/></li>
+                    <li>
+                    <!--<img src="<?php base_url(); ?>assets/assets/img/watch-26-1.png" alt="Apple Watch Thumbnail"/></li>
+                    <li><img src="<?php base_url(); ?>assets/assets/img/watch-26-2.png" alt="Apple Watch Thumbnail"/></li>
+                    <li><img src="<?php base_url(); ?>assets/assets/img/watch-26-1.png" alt="Apple Watch Thumbnail"/></li>
                 </ul>
-                <ul class="controller dots ae-2 fromCenter margin-top-3" data-slider-id="27-2">
-                  <li class="dot selected"></li>
-                  <li class="dot"></li>
-                  <li class="dot"></li>
-                  <li class="dot"></li>
-                </ul>
-              </div>
             </li>
             <li class="col-7-12 left">
-              <h1 class="ae-2 fromRight">Be creative</h1>
+              <h1 class="ae-2 fromRight">Teknologi Liposome</h1>
               <div class="ae-3 fromRight">
-                <p class="opacity-8">When we feel less secure, with less control over our daily lives, we reach out to brands to connect with a time when things seemed&nbsp;better.</p>
+                <p class="opacity-8">Mencerahkan kulit gelap akibat <br>paparan sinar matahari</p>
               </div>
-              <div class="relative">
+              <div>
+              <!--<div class="relative">
                 <img src="<?php base_url(); ?>assets/assets/img/icon-2.png" class="ae-3 fromCenter app-26" alt="app"/>
                 <div class="text-26">
                   <h3 class="ae-3 fromRight">Ember for Apple Watch</h3>
@@ -320,7 +269,58 @@
       </div>
     </div>
   </div>
-  <div class="background" style="background-image:url(<?php base_url(); ?>assets/assets/img/background/img-27.jpg)"></div>
+  <div class="background" style="background-image:url(<?php base_url(); ?>assets/assets/img/background/bg.jpg)"></div>
+</section>
+
+
+
+
+<!-- Slide 3 (#27) -->
+<section class="slide fade-6 kenBurns" data-name="features">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+        
+        <div class="fix-12-12">
+          <ul class="flex verticalCenter">
+            <li class="col-5-12 cell-27">
+              <div class="fix-8-12">
+                <ul class="slider clickable ae-1 fromAbove" data-slider-id="27-2">
+                  <li class="selected"><img src="<?php base_url(); ?>assets/assets/img/prod_2.png" alt="Apple Watch Thumbnail"/></li><!--
+                  <li><img src="<?php base_url();?>assets/assets/img/watch-26-1.png" alt="Apple Watch Thumbnail"/></li>
+                  <li><img src="<?php base_url();?>assets/assets/img/watch-26-2.png" alt="Apple Watch Thumbnail"/></li>
+                  <li><img src="<?php base_url();?>assets/assets/img/watch-26-1.png" alt="Apple Watch Thumbnail"/></li>-->
+                </ul>
+                <!--<ul class="controller dots ae-2 fromCenter margin-top-3" data-slider-id="27-2">
+                  <li class="dot selected"></li>
+                  <li class="dot"></li>
+                  <li class="dot"></li>
+                  <li class="dot"></li>
+                </ul>-->
+              </div>
+            </li>
+            <li class="col-7-12 left">
+              <h1 class="ae-2 fromRight">Teknologi Liposome</h1>
+              <div class="ae-3 fromRight">
+                <p class="opacity-8">Mencerahkan kulit gelap akibat <br>paparan sinar matahari</p>
+              </div>
+              <div class="relative">
+                <!--<img src="<?php base_url();?>assets/assets/img/icon-2.png" class="ae-3 fromCenter app-26" alt="app"/>
+                <div class="text-26">
+                  <h3 class="ae-3 fromRight">Ember for Apple Watch</h3>
+                  <div class="ae-5 fromRight">
+                    <p class="tiny opacity-6">People don&rsquo;t use a product<br>because of the great&nbsp;design.</p>-->
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:url(<?php base_url();?>assets/assets/img/background/bg.jpg)"></div>
 </section>
 
 <!-- Slide 4 (#26) -->
@@ -332,21 +332,21 @@
         <div class="fix-12-12">
           <ul class="flex reverse verticalCenter">
             <li class="col-7-12 left cell-26">
-              <h1 class="ae-1 fromLeft">How we work</h1>
-              <div class="ae-2 fromLeft">
-                <p class="opacity-8">An electrician isn't an opinion former, but a graphic designer is. My argument is that all graphic designers hold high levels of responsibility in&nbsp;society.</p>
+              <!--<h1 class="ae-1 fromLeft">Dan sekarang, kita happy..</h1>
+              <div class="ae-2 fromLeft">-->
+                <!--<p class="opacity-8">An electrician isn't an opinion former, but a graphic designer is. My argument is that all graphic designers hold high levels of responsibility in&nbsp;society.</p>-->
               </div>
-              <div class="relative">
-                <img src="<?php base_url(); ?>assets/assets/img/icon-1.png" class="ae-3 fromCenter app-26" alt="app"/>
-                <div class="text-26">
+              <!--<div class="relative">
+                <img src="<?php base_url(); ?>assets/assets/img/icon-1.png" class="ae-3 fromCenter app-26" alt="app"/>-->
+                <!--<div class="text-26">
                   <h3 class="ae-3 fromRight">Ember for Apple Watch</h3>
                   <div class="ae-5 fromRight">
                     <p class="tiny opacity-6">People don&rsquo;t use a product<br>because of the great&nbsp;design.</p>
                   </div>
-                </div>
+                </div>-->
               </div>
             </li>
-            <li class="col-5-12">
+            <!--<li class="col-5-12">
               <div class="fix-4-12 center">
                 <ul class="slider clickable ae-1 fromAbove" data-slider-id="26-3">
                   <li class="selected"><img src="<?php base_url(); ?>assets/assets/img/watch-26-1.png" alt="Apple Watch Thumbnail"/></li>
@@ -361,17 +361,17 @@
                   <li class="dot"></li>
                 </ul>
               </div>
-            </li>
+            </li>-->
           </ul>
         </div>
         
       </div>
     </div>
   </div>
-  <div class="background" style="background-image:url(<?php base_url(); ?>assets/assets/img/background/img-26.jpg)"></div>
+  <div class="background" style="background-image:url(<?php base_url(); ?>assets/assets/img/background/b03.jpg)"></div>
 </section>
 
-<!-- Slide 5 (#91) -->
+<!-- Slide 5 (#91) 
 <section class="slide fade-6 kenBurns" data-name="case">
   <div class="content">
     <div class="container">
@@ -409,7 +409,7 @@
   <div class="background" style="background-image:url(<?php base_url(); ?>assets/assets/img/background/img-91.jpg)"></div>
 </section>
 
-<!-- Slide 6 (#83) -->
+<!-- Slide 6 (#83) 
 <section class="slide fade-6 kenBurns" data-name="pricing">
   <div class="content">
     <div class="container">
@@ -477,7 +477,7 @@
   <div class="background" style="background-image:url(<?php base_url(); ?>assets/assets/img/background/img-83.jpg)"></div>
 </section>
 
-<!-- Slide 7 (#95) -->
+<!-- Slide 7 (#95) 
 <section class="slide fade-6 kenBurns" data-name="download">
   <div class="content">
     <div class="container">
@@ -499,12 +499,12 @@
     </div>
   </div>
   <div class="background" style="background-image:url(<?php base_url(); ?>assets/assets/img/background/img-95.jpg)"></div>
-</section>
+</section>-->
 
 <!-- Panel Bottom #01 -->
 <nav class="panel bottom forceMobileView">
   <div class="sections desktop">
-    <div class="left"><a href="#" class="opacity-8">Design by <a href="https://freehtml5.co" target="_blank">FreeHTML5</a></div>
+    <div class="left"><a href="https://www.instagram.com/bioxsine_indonesia/" class="opacity-8">Bioxsine Indonesia <a href="https://www.instagram.com/bioxsine_indonesia/" target="_blank"></a></div>
     <div class="center"><span class="nextSlide"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-down"></use></svg></span></div>
     <div class="right"><span data-dropdown-id="2" class="button actionButton dropdownTrigger"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#share"></use></svg></span></div>
   </div>
@@ -523,7 +523,7 @@
   </div>
   <ul>
     <li class="social-facebook"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fb-like"></use></svg></li>
-    <li class="social-twitter"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></li>
+    <li class="social-instagram"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></li>
     <li class="social-googlePlus"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#googlePlus"></use></svg></li>
     <li class="social-linkedin"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></li>
     <li class="mail" data-subject="Subject" data-body="Body">share by email</li>
@@ -533,5 +533,6 @@
 <!-- Loading Progress Bar -->
 <div class="progress-bar blue"></div>
 
+</embed>
 </body>
 </html>
